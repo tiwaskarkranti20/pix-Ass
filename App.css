@@ -1,0 +1,179 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+i {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+i.active {
+  color: whitesmoke ,
+rebeccapurple;
+}
+
+/* General container styling */
+.MDBContainer {
+  margin-top: 50px;
+}
+
+/* Box styling for table */
+.MDBTable {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.MDBTableHead {
+  background-color: #f8f9fa;
+}
+
+.MDBTableHead th {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 2px solid #dee2e6;
+  font-weight: bold;
+}
+
+.MDBTableBody td, .MDBTableBody th {
+  padding: 12px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.MDBTable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Box styling for dropdown */
+.MDBDropdown {
+  margin-bottom: 20px;
+}
+
+.MDBDropdownToggle {
+  background-color: #007bff;
+  color: wheat;
+  border-color:none;
+  border-radius: 10px;
+  padding: 20px 15px;
+  cursor: pointer;
+  align-items: right;
+
+}
+
+.MDBDropdownMenu {
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  cursor: pointer;
+  justify-content: right;
+}
+
+.MDBDropdownItem {
+  padding: 10px 15px;
+  border-bottom: 1px solid #dee2e6;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.MDBDropdownItem:hover {
+  background-color: #f8f9fa;
+  color: #0056b3;
+}
+
+/* Card style for rows */
+.table-row {
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table-row img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.table-row .row-content {
+  display: flex;
+  align-items: center;
+}
+
+.table-row .row-content .details {
+  flex: 1;
+}
+
+.table-row .row-content .details h5 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.table-row .row-content .details p {
+  margin: 5px 0;
+  color: black;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  list-style: none;
+}
+
+.page-item {
+  margin: 0 5px;
+}
+
+.page-link {
+  display: block;
+  padding: 10px;
+  border: 1px solid #e01d58;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #80a1c4;
+}
+
+.page-link:hover {
+  background-color: #f8f9fa;
+}
+
+.active .page-link {
+  background-color: #2082afda;
+  color: white;
+}
+
